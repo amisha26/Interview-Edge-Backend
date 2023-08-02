@@ -47,7 +47,6 @@ app.register_blueprint(explore_route(conn), url_prefix='/')
 def error(e):
     return jsonify({"msg": "Wrong Route"}), 404
 
-;
 # =============== Routes ===============
 
 

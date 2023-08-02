@@ -16,6 +16,7 @@ class Database:
         else:
             res = cursor.fetchall()
         return res
+    
 
 if __name__ == "__main__":
     pass

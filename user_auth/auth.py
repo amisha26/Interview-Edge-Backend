@@ -24,12 +24,13 @@ def auth_route(connection):
             if validity == None:
                 return jsonify({"msg" : "Username/Password is incorrect"}), 400
             else:
-                query = f"SELECT username from users where username = '{username}'"
+                query = f"SELECT * from users where username = '{username}'"
                 res = dbObj.selectQuery(query)
+                #print(res)
                 if res != None:
                     access_token = create_access_token(identity=username)
                     data = {"id":res[0],"name":username,"token":access_token}
-                    return jsonify({"message": "Login Successfull", "data": data ,"error":False}), 200
+                    return jsonify({"message": "Login Successful", "data": data ,"error":False}), 200
                 else:
                     return jsonify({"msg" : "Something went wrong"}), 400
         except Exception as e:
