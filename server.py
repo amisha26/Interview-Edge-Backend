@@ -6,6 +6,8 @@ from flask_jwt_extended import JWTManager, jwt_required, create_access_token, ge
 # File imports
 from user_auth.auth import auth_route
 from explore.explore import explore_route
+from profile.profile import profile_route
+
 # Library imports
 import sqlite3
 import atexit
@@ -41,6 +43,7 @@ atexit.register(close_db_connection)
 # =============== Routes ===============
 app.register_blueprint(auth_route(conn), url_prefix='/')
 app.register_blueprint(explore_route(conn), url_prefix='/')
+app.register_blueprint(profile_route(conn), url_prefix='/profile')
 
 
 @app.errorhandler(404)
