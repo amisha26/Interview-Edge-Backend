@@ -12,8 +12,8 @@ dummyData = [
         "solved": 8
     },
     {
-        "title": "Array",
-        "urlTitle": "array",
+        "title": "Arrays",
+        "urlTitle": "arrays",
         "total": 30,
         "solved": 4
     },
@@ -24,8 +24,8 @@ dummyData = [
         "solved": 50
     },    
     {
-        "title": "Tree",
-        "urlTitle": "tree",
+        "title": "Trees",
+        "urlTitle": "trees",
         "total": 25,
         "solved": 10
     }
@@ -101,6 +101,24 @@ selectedTopicData = [
         }
     ]
 
+question_list = [
+    {
+    "url": "hello.com",
+    "level": "easy",
+    "platform": "codeforces",
+    "question": "hello",
+    "topic": "binarySearch"
+}
+]
+
+mark_question = [
+    {
+    "user_id": "9eee6edc2edb11ee8551a6a688ffce9b",
+    "question_id": "b2630f441cc111eea5719f9e1997d77b",
+    "topic": "arrays"
+}
+]
+
 def explore_route(connection):
     dbObj = Database(connection)
 
@@ -131,38 +149,23 @@ def explore_route(connection):
 
 
     # This is add questions
-    @explore.route('/add-question', methods=['POST'])
+    @explore.route('/add-questions', methods=['POST'])
     def addQuestion():
         #queryRes = {"data":"name","onGoingTopic":False }
-        # finalData = {"data":dummyData,"onGoingTopic":queryRes} 
-        # return jsonify({"data": finalData, "error": False}), 200
+        # finalData = {"data":dummyData,"onGoingTopic":queryRes}
 
-        try:
-            req = request.args()
-            topic_name, question_url, question_name, level = req["topic_name"], req["question_url"], req["question_name"], req["level"]
-            query = f"SELECT * FROM questions WHERE question_url = '{question_url}'"
-            validity = dbObj.selectQuery(query)
-            if validity == None:
-                id  = uuid.uuid1().hex
-                query = f"INSERT INTO questions(question_id, topic_name, question_url, question_name, level) VALUES ('{id}', {topic_name}', '{question_url}', '{question_name}', '{level}')"
-                dbObj.executeQuery(query)
-                query = f"SELECT topic_name, question_url, question_name, level FROM questions"
-                display_questions = dbObj.selectQuery(query)
-                question_data = []
-                for i in display_questions:
-                    question_data.append(i)
-                queryRes = {"data":"name","onGoingTopic":False }
-                finalData = {"data":question_data,"onGoingTopic":queryRes}
-                return jsonify({"data": finalData, "error": False}), 200
-            else:
-                query = f"SELECT topic_name, question_url, question_name, level FROM questions"
-                display_questions = dbObj.selectQuery(query)
-                question_data = []
-                for i in display_questions:
-                    question_data.append(i)
-                queryRes = {"data":"name","onGoingTopic":False }
-                finalData = {"data":question_data,"onGoingTopic":queryRes}
-                return jsonify({"msg": "Question already exists", "data": finalData, "error": False}), 200
+        try: 
+            return jsonify({"data": question_list, "error": False}), 200
+
+        except Exception as e:
+            print(e)
+            return jsonify({"msg": "Something went wrong"}), 500
+        
+
+    @explore.route('/markQuestion', methods=['POST'])
+    def markQuestion():
+        try: 
+            return jsonify({"data": mark_question, "error": False}), 200
 
         except Exception as e:
             print(e)
