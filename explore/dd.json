@@ -1,70 +1,7 @@
-{
-    "data": {
-        "rows": [
-            {
-                "date": null,
-                "done": "No",
-                "level": "medium",
-                "platform": "leetcode",
-                "question": "Determine if Two Strings Are Close",
-                "topic": "Arrays",
-                "url": "https://leetcode.com/problems/determine-if-two-strings-are-close/"
-            },
-            {
-                "date": "2023-08-02 05:49:10",
-                "done": "Yes",
-                "level": "easy",
-                "platform": "leetcode",
-                "question": "Count Number of Pairs With Absolute Difference K",
-                "topic": "Arrays",
-                "url": "https://leetcode.com/problems/count-number-of-pairs-with-absolute-difference-k/"
-            },
-            {
-                "date": "2023-07-30 16:02:42",
-                "done": "Yes",
-                "level": "easy",
-                "platform": "leetcode",
-                "question": "Build Array from Permutation",
-                "topic": "Arrays",
-                "url": "https://leetcode.com/problems/build-array-from-permutation/"
-            },
-            {
-                "date": null,
-                "done": "No",
-                "level": "medium",
-                "platform": "leetcode",
-                "question": "Swapping Nodes in a Linked List",
-                "topic": "Two Pointers",
-                "url": "https://leetcode.com/problems/swapping-nodes-in-a-linked-list/?envType=list&envId=9y4zmb5i"
-            },
-            {
-                "date": null,
-                "done": "No",
-                "level": "medium",
-                "platform": "leetcode",
-                "question": "Split Two Strings to Make Palindrome",
-                "topic": "Two Pointers",
-                "url": "https://leetcode.com/problems/split-two-strings-to-make-palindrome/"
-            },
-            {
-                "date": null,
-                "done": "No",
-                "level": "medium",
-                "platform": "leetcode",
-                "question": "3Sum",
-                "topic": "Two Pointers",
-                "url": "https://leetcode.com/problems/3sum/"
-            },
-            {
-                "date": null,
-                "done": "No",
-                "level": "medium",
-                "platform": "leetcode",
-                "question": "Rotate Array",
-                "topic": "Two Pointers",
-                "url": "https://leetcode.com/problems/rotate-array/"
-            }
-        ]
-    },
-    "error": false
+    {
+    "url": "hello.com",
+    "level": "easy",
+    "platform": "codeforces",
+    "question": "hello",
+    "topic": "binarySearch"
 }

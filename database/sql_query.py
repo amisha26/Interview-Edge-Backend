@@ -25,14 +25,15 @@ create_questions_table = '''
     topic_name VARCHAR(50) NOT NULL,
     question_url VARCHAR(250),
     question_name TEXT NOT NULL,
-    level TEXT NOT NULL
+    level TEXT NOT NULL,
+    platform TEXT NOT NULL
         ) '''
 
 # =============== Inserting dummy data in Questions Table  ===============
 insert_question = '''INSERT OR IGNORE INTO questions (question_id, topic_name, question_url,
-question_name, level)
+question_name, level, platform)
 VALUES ('101', 'binarySearch', 'abc.leetcode.com', 'John and the cows',
-'hard')
+'hard', 'codechef')
 '''
 
 # =============== Creating userQuestions Table  ===============
