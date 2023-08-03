@@ -148,14 +148,24 @@ def explore_route(connection):
             return jsonify({"msg": "Something went wrong"}), 500
 
 
-    # This is add questions
+    # Adding questions to questions table
     @explore.route('/add-questions', methods=['POST'])
     def addQuestion():
-        #queryRes = {"data":"name","onGoingTopic":False }
-        # finalData = {"data":dummyData,"onGoingTopic":queryRes}
-
-        try: 
-            return jsonify({"data": question_list, "error": False}), 200
+        try:
+            req = request.get_json()
+            question_url, level, platform, question_name, topic_name = req["url"], req["level"], req["platform"], req["question"], req["topic"]
+            #print(question_url, level, platform, question_name, topic_name)
+            query = f"SELECT * FROM questions WHERE question_url = '{question_url}'"
+            validity = dbObj.selectQuery(query)
+            if validity == None:
+                id = uuid.uuid1().hex
+                query = f"INSERT INTO questions(question_id, topic_name, question_url, question_name, level, platform) VALUES ('{id}', '{topic_name}', '{question_url}', '{question_name}', '{level}', '{platform}')"
+                dbObj.executeQuery(query)
+                return jsonify({"msg" : "success"}), 200
+            else:
+                return jsonify({"message": "Question present already", "error": False}), 200
+            
+            #return jsonify({"data": question_list, "error": False}), 200
 
         except Exception as e:
             print(e)
