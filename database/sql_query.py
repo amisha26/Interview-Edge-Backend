@@ -42,12 +42,13 @@ CREATE TABLE IF NOT EXISTS userQuestions (
 userQuestions_id TEXT PRIMARY KEY,
 user_id TEXT NOT NULL,
 question_id text NOT NULL,
-topic_name VARCHAR(50) NOT NULL
+topic_name VARCHAR(50) NOT NULL,
+date DATE NOT NULL
 ) '''
 
 # =============== Inserting dummy data in userQuestions Table  ===============
-insert_userQuestion = '''INSERT OR IGNORE INTO userQuestions (userQuestions_id, user_id, question_id, topic_name)
-VALUES ('101', '2', '11', 'binarySearch')'''
+insert_userQuestion = '''INSERT OR IGNORE INTO userQuestions (userQuestions_id, user_id, question_id, topic_name, date)
+VALUES ('101', '2', '11', 'binarySearch', '2021-08-13')'''
 
 
 # =============== Executing create table queries  ===============
