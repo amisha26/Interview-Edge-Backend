@@ -140,7 +140,6 @@ def explore_route(connection):
     def getSelectedTopic():
         try:
             id, topic = request.args.get("id"), request.args.get("topic")
-            print(id, topic)
             return jsonify({"data": selectedTopicData, "error": False}), 200
         
         except Exception as e:
