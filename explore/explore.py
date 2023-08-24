@@ -1,6 +1,7 @@
 from flask import Flask, Blueprint, request, jsonify
 from database.database import Database
 import uuid
+from datetime import datetime
 
 explore = Blueprint('explore', __name__)
 
@@ -36,7 +37,7 @@ selectedTopicData = [
             "body": [
                 {
                     "completed": False,
-                    "id": "b2630f441cc111eea5719f9e1997d77b",
+                    "id": "c6ae0a22427c11eebc84a6a688ffce9b",
                     "name": "Unique Email Addresses",
                     "platform": "leetcode",
                     "url": "https://leetcode.com/problems/unique-email-addresses/"
@@ -113,9 +114,9 @@ question_list = [
 
 mark_question = [
     {
-    "user_id": "9eee6edc2edb11ee8551a6a688ffce9b",
-    "question_id": "b2630f441cc111eea5719f9e1997d77b",
-    "topic": "arrays"
+    "user_id": "ad66311432e811ee835aa6a688ffce9b",
+    "question_id": "c6ae0a22427c11eebc84a6a688ffce9b",
+    "topic": "binary"
 }
 ]
 
@@ -173,8 +174,26 @@ def explore_route(connection):
 
     @explore.route('/markQuestion', methods=['POST'])
     def markQuestion():
-        try: 
-            return jsonify({"data": mark_question, "error": False}), 200
+        try:
+            req = request.get_json()
+            user_id, question_id, topic_name = req["user_id"], req["question_id"], req["topic_name"]
+            print(user_id)
+            query = f"SELECT * FROM questions WHERE question_id = '{question_id}' AND topic_name = '{topic_name}' AND user_id = '{user_id}'"
+            validity = dbObj.selectQuery(query)
+            # when question is marked
+            if validity is None:
+                id = uuid.uuid1().hex
+                date = datetime.now()
+                date.strftime("%d/%m/%y")
+                query = f"INSERT INTO userQuestions (userQuestions_id, user_id, question_id, topic_name, date) VALUES ('{id}', '{user_id}', '{question_id}', '{topic_name}', '{date}')"
+                dbObj.executeQuery(query)
+                return jsonify({"data": "Marked question as done", "error": False}), 200
+            
+            #when question is un-marked
+            query = f"DELETE FROM userQuestions WHERE question_id = '{question_id}' AND topic_name = '{topic_name}' AND user_id = '{user_id}'"
+            dbObj.executeQuery(query)
+            return jsonify({"data": "Question un-marked", "error": False}), 200
+            #return jsonify({"data": mark_question, "error": False}), 200
 
         except Exception as e:
             print(e)
