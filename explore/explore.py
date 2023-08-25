@@ -16,7 +16,7 @@ dummyData = [
         "title": "Arrays",
         "urlTitle": "arrays",
         "total": 30,
-        "solved": 4
+        "solved": 5
     },
     {
         "title": "Dynamic Programming",
