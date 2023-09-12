@@ -4,6 +4,12 @@ import uuid
 from datetime import datetime
 
 explore = Blueprint('explore', __name__)
+topicMappping = {"twoPointers": "Two Pointers",
+                    "strings": "Strings", "arrays": "Arrays","stack":"Stack",
+                    "binarySearch":"Binary Search","linkedlist":"Linked List",
+                    "tree-1":"Tree - 1","tree-2":"Tree - 2","dp-1":"Dynamic Programming - 1",
+                    "heap":"Heap - Priority Queue","dp-2":"Dynamic Programming - 2",
+                    "slidingWindow":"Sliding Window"}
 
 dummyData = [
     {
@@ -130,9 +136,15 @@ def explore_route(connection):
             id = request.args.get("id")
             query = f"SELECT q.topic_name AS topic_name, COUNT(q.question_id) AS question_count, COUNT(uq.question_id) AS user_question_count FROM questions q LEFT JOIN userquestions uq ON q.question_id = uq.question_id AND uq.user_id = '{id}' GROUP BY q.topic_name ORDER BY q.topic_name;"
             title = dbObj.selectQuery(query, False)
-            print("title: ", title)
+            topic_data = []
+            for data in title:
+                urlTitle, total, solved = data[0], data[1], data[2]
+                if urlTitle in topicMappping:
+                    title_name = urlTitle
+                formattedData = {"title": title_name, "urlTitle": urlTitle, "total": total, "solved": solved}
+                topic_data.append(formattedData)
             queryRes = {"data":"name","onGoingTopic":False }
-            finalData = {"data":dummyData,"onGoingTopic":queryRes} 
+            finalData = {"data":topic_data,"onGoingTopic":queryRes} 
             return jsonify({"data": finalData, "error": False}), 200
 
         except Exception as e:
