@@ -128,9 +128,9 @@ def explore_route(connection):
     def topic():
         try:
             id = request.args.get("id")
-            query = f"SELECT topic_name, COUNT(*) AS topic_count FROM questions GROUP BY topic_name"
+            query = f"SELECT q.topic_name AS topic_name, COUNT(q.question_id) AS question_count, COUNT(uq.question_id) AS user_question_count FROM questions q LEFT JOIN userquestions uq ON q.question_id = uq.question_id AND uq.user_id = '{id}' GROUP BY q.topic_name ORDER BY q.topic_name;"
             title = dbObj.selectQuery(query, False)
-            print("title: ", title[0])
+            print("title: ", title)
             queryRes = {"data":"name","onGoingTopic":False }
             finalData = {"data":dummyData,"onGoingTopic":queryRes} 
             return jsonify({"data": finalData, "error": False}), 200
