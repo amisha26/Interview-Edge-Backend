@@ -138,13 +138,15 @@ def explore_route(connection):
             title = dbObj.selectQuery(query, False)
             topic_data = []
             for data in title:
-                urlTitle, total, solved = data[0], data[1], data[2]
-                if urlTitle in topicMappping:
-                    title_name = urlTitle
-                formattedData = {"title": title_name, "urlTitle": urlTitle, "total": total, "solved": solved}
+                urltitle, total, solved = data[0], data[1], data[2]
+                if urltitle in topicMappping:
+                    title_name = topicMappping[urltitle]
+                formattedData = {"title": title_name, "urlTitle": urltitle, "total": total, "solved": solved}
                 topic_data.append(formattedData)
+            print(topic_data)
             queryRes = {"data":"name","onGoingTopic":False }
-            finalData = {"data":topic_data,"onGoingTopic":queryRes} 
+            finalData = {"data":topic_data,"onGoingTopic":queryRes}
+            #finalData = {"data":dummyData,"onGoingTopic":queryRes} 
             return jsonify({"data": finalData, "error": False}), 200
 
         except Exception as e:
