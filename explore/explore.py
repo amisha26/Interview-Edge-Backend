@@ -166,13 +166,13 @@ def explore_route(connection):
             for data in queryRes:
                 question_url, question_id, topic_name, question_name, level, platform, completed = data[0], data[1], data[2], data[3], data[4], data[5], data[6]
                 if level == "easy":
-                    formattedData = {"completed": completed, "id": question_id, "name": question_name, "platform": platform, "url": question_url}
+                    formattedData = {"completed": completed == 1, "id": question_id, "name": question_name, "platform": platform, "url": question_url}
                     easyArr.append(formattedData)
                 elif level == "medium":
-                    formattedData = {"completed": completed, "id": question_id, "name": question_name, "platform": platform, "url": question_url}
+                    formattedData = {"completed": completed == 1, "id": question_id, "name": question_name, "platform": platform, "url": question_url}
                     mediumArr.append(formattedData)
                 elif level == "hard":
-                    formattedData = {"completed": completed, "id": question_id, "name": question_name, "platform": platform, "url": question_url}
+                    formattedData = {"completed": completed == 1, "id": question_id, "name": question_name, "platform": platform, "url": question_url}
                     hardArr.append(formattedData)
             easyA = {"body": easyArr, "cardTitle": "Easy", "cardType": "easy"}
             mediumA = {"body": mediumArr, "cardTitle": "Medium", "cardType": "medium"}
@@ -216,7 +216,7 @@ def explore_route(connection):
             req = request.get_json()
             user_id, question_id, topic_name = req["user_id"], req["question_id"], req["topic_name"]
             print(user_id)
-            query = f"SELECT * FROM questions WHERE question_id = '{question_id}' AND topic_name = '{topic_name}' AND user_id = '{user_id}'"
+            query = f"SELECT * FROM userQuestions WHERE question_id = '{question_id}' AND topic_name = '{topic_name}' AND user_id = '{user_id}'"
             validity = dbObj.selectQuery(query)
             # when question is marked
             if validity is None:
