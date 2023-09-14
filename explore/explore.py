@@ -214,7 +214,7 @@ def explore_route(connection):
     def markQuestion():
         try:
             req = request.get_json()
-            user_id, question_id, topic_name = req["user_id"], req["question_id"], req["topic_name"]
+            user_id, question_id, topic_name = req["user_id"], req["question_id"], req["topic"]
             print(user_id)
             query = f"SELECT * FROM userQuestions WHERE question_id = '{question_id}' AND topic_name = '{topic_name}' AND user_id = '{user_id}'"
             validity = dbObj.selectQuery(query)
