@@ -178,7 +178,6 @@ def explore_route(connection):
             mediumA = {"body": mediumArr, "cardTitle": "Medium", "cardType": "medium"}
             hardA = {"body": hardArr, "cardTitle": "Hard", "cardType": "hard"}
             selectedTopicData1 = [easyA, mediumA, hardA]
-            print("deee: ", selectedTopicData1)
             return jsonify({"data": selectedTopicData1, "error": False}), 200
         
         except Exception as e:
@@ -215,9 +214,9 @@ def explore_route(connection):
         try:
             req = request.get_json()
             user_id, question_id, topic_name = req["user_id"], req["question_id"], req["topic"]
-            print(user_id)
             query = f"SELECT * FROM userQuestions WHERE question_id = '{question_id}' AND topic_name = '{topic_name}' AND user_id = '{user_id}'"
             validity = dbObj.selectQuery(query)
+            print("validity: ", validity)
             # when question is marked
             if validity is None:
                 id = uuid.uuid1().hex
