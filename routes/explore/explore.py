@@ -1,151 +1,24 @@
 from flask import Flask, Blueprint, request, jsonify
 from routes.database.database import Database
+from routes.explore.explore_db import ExploreDb
 import uuid
 from datetime import datetime
 
 explore = Blueprint('explore', __name__)
-topicMappping = {"twoPointers": "Two Pointers",
-                    "strings": "Strings", "arrays": "Arrays","stack":"Stack",
-                    "binarySearch":"Binary Search","linkedlist":"Linked List",
-                    "tree-1":"Tree - 1","tree-2":"Tree - 2","dp-1":"Dynamic Programming - 1",
-                    "heap":"Heap - Priority Queue","dp-2":"Dynamic Programming - 2",
-                    "slidingWindow":"Sliding Window"}
 
-dummyData = [
-    {
-        "title": "Binary Search",
-        "urlTitle": "binarySearch",
-        "total": 20,
-        "solved": 8
-    },
-    {
-        "title": "Arrays",
-        "urlTitle": "arrays",
-        "total": 30,
-        "solved": 5
-    },
-    {
-        "title": "Dynamic Programming",
-        "urlTitle": "dynamicProgramming",
-        "total": 50,
-        "solved": 50
-    },    
-    {
-        "title": "Trees",
-        "urlTitle": "trees",
-        "total": 25,
-        "solved": 10
-    }
-]
 
-selectedTopicData = [
-        {
-            "body": [
-                {
-                    "completed": False,
-                    "id": "c6ae0a22427c11eebc84a6a688ffce9b",
-                    "name": "Unique Email Addresses",
-                    "platform": "leetcode",
-                    "url": "https://leetcode.com/problems/unique-email-addresses/"
-                },
-                {
-                    "completed": False,
-                    "id": "dcd58f5e1cc111eea5719f9e1997d77b",
-                    "name": "Valid Anagram",
-                    "platform": "leetcode",
-                    "url": "https://leetcode.com/problems/valid-anagram/"
-                },
-                {
-                    "completed": False,
-                    "id": "56481cfa1cc511eea5719f9e1997d77b",
-                    "name": "Word Pattern",
-                    "platform": "leetcode",
-                    "url": "https://leetcode.com/problems/word-pattern/"
-                }
-            ],
-            "cardTitle": "Easy",
-            "cardType": "easy"
-        },
-        {
-            "body": [
-                {
-                    "completed": False,
-                    "id": "fa5138221cc511eea5719f9e1997d77b",
-                    "name": "Valid Sudoku",
-                    "platform": "leetcode",
-                    "url": "https://leetcode.com/problems/valid-sudoku/"
-                }
-            ],
-            "cardTitle": "Medium",
-            "cardType": "medium"
-        },
-        {
-            "body": [
-                {
-                    "completed": False,
-                    "id": "adf148e01cc611eea5719f9e1997d77b",
-                    "name": "First Missing Positive",
-                    "platform": "leetcode",
-                    "url": "https://leetcode.com/problems/first-missing-positive/"
-                },
-                {
-                    "completed": False,
-                    "id": "b925f5e41cc611eea5719f9e1997d77b",
-                    "name": "Naming a Company",
-                    "platform": "leetcode",
-                    "url": "https://leetcode.com/problems/naming-a-company/"
-                },
-                {
-                    "completed": False,
-                    "id": "2c9f9f50164811eea88ae3300d621ca4",
-                    "name": "Trapping Rain Water",
-                    "platform": "leetcode",
-                    "url": "https://leetcode.com/problems/trapping-rain-water/?envType=list&envId=er2c1j13"
-                }
-            ],
-            "cardTitle": "Hard",
-            "cardType": "hard"
-        }
-    ]
-
-question_list = [
-    {
-    "url": "hello.com",
-    "level": "easy",
-    "platform": "codeforces",
-    "question": "hello",
-    "topic": "binarySearch"
-}
-]
-
-mark_question = [
-    {
-    "user_id": "ad66311432e811ee835aa6a688ffce9b",
-    "question_id": "c6ae0a22427c11eebc84a6a688ffce9b",
-    "topic": "binary"
-}
-]
 
 def explore_route(connection):
     dbObj = Database(connection)
+    topicObj = ExploreDb(connection)
 
     # This is get topics
     @explore.route('/topics', methods=['GET'])
     def topic():
         try:
             id = request.args.get("id")
-            query = f"SELECT q.topic_name AS topic_name, COUNT(q.question_id) AS question_count, COUNT(uq.question_id) AS user_question_count FROM questions q LEFT JOIN userquestions uq ON q.question_id = uq.question_id AND uq.user_id = '{id}' GROUP BY q.topic_name ORDER BY q.topic_name;"
-            title = dbObj.selectQuery(query, False)
-            topic_data = []
-            for data in title:
-                urltitle, total, solved = data[0], data[1], data[2]
-                if urltitle in topicMappping:
-                    title_name = topicMappping[urltitle]
-                formattedData = {"title": title_name, "urlTitle": urltitle, "total": total, "solved": solved}
-                topic_data.append(formattedData)
-            queryRes = {"data":"name","onGoingTopic":False }
-            finalData = {"data":topic_data,"onGoingTopic":queryRes}
             #finalData = {"data":dummyData,"onGoingTopic":queryRes} 
+            finalData = topicObj.getUserTopicData(id)
             return jsonify({"data": finalData, "error": False}), 200
 
         except Exception as e:
