@@ -4,9 +4,9 @@ from flask_cors import CORS
 from flask_jwt_extended import JWTManager, jwt_required, create_access_token, get_jwt_identity
 
 # File imports
-from user_auth.auth import auth_route
-from explore.explore import explore_route
-from profile.profile import profile_route
+from routes.user_auth.auth import auth_route
+from routes.explore.explore import explore_route
+from routes.profile.profile import profile_route
 
 # Library imports
 import sqlite3

@@ -1,7 +1,7 @@
 from flask import Flask, Blueprint, request, jsonify
 from flask_jwt_extended import jwt_required, create_access_token, get_jwt_identity
 import uuid
-from database.database import Database
+from routes.database.database import Database
 
 
 auth = Blueprint('auth', __name__)
