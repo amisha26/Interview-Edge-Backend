@@ -11,6 +11,9 @@ class ProfileDb:
     def __init__(self, connection):
         self.dbObj = Database(connection)
 
+
+        
+
     def getTableData(self, id):
         query = f"SELECT q.topic_name, q.question_name, q.question_url, q.level, q.platform, uq.date, CASE WHEN uq.user_id IS NOT NULL THEN TRUE ELSE FALSE END FROM questions q LEFT JOIN userQuestions uq ON q.question_id = uq.question_id AND uq.user_id = '{id}' WHERE (uq.user_id = '{id}' OR uq.user_id IS NULL)"
         queryRes = self.dbObj.selectQuery(query, False)
