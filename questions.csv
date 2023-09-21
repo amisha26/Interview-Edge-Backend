@@ -1,0 +1,247 @@
+https://leetcode.com/problems/shuffle-the-array/,60b93a68164711eea88ae3300d621ca4,arrays,Shuffle the Array,easy,leetcode
+https://leetcode.com/problems/count-number-of-pairs-with-absolute-difference-k/,8e082e34164711eea88ae3300d621ca4,arrays,Count Number of Pairs With Absolute Difference K,easy,leetcode
+https://leetcode.com/problems/build-array-from-permutation/,9c6b1978164711eea88ae3300d621ca4,arrays,Build Array from Permutation,easy,leetcode
+https://leetcode.com/problems/swapping-nodes-in-a-linked-list/?envType=list&envId=9y4zmb5i,06d22c34164811eea88ae3300d621ca4,twoPointers,Swapping Nodes in a Linked List,medium,leetcode
+https://leetcode.com/problems/trapping-rain-water/?envType=list&envId=er2c1j13,2c9f9f50164811eea88ae3300d621ca4,arrays,Trapping Rain Water,hard,leetcode
+https://leetcode.com/problems/longest-consecutive-sequence/?envType=list&envId=er2c1j13,43723bf2164811eea88ae3300d621ca4,arrays,Longest Consecutive Sequence,medium,leetcode
+https://leetcode.com/problems/majority-element-ii/?envType=list&envId=er2c1j13,c2c1307a198111eea88ae3300d621ca4,arrays,Majority Element II,medium,leetcode
+https://leetcode.com/problems/target-sum/?envType=list&envId=er2c1j13,8c186c94199711eea88ae3300d621ca4,arrays,Target Sum,medium,leetcode
+https://leetcode.com/problems/maximum-sum-circular-subarray/?envType=list&envId=er2c1j13,9e6b97e0199711eea88ae3300d621ca4,arrays,Maximum Sum Circular Subarray,medium,leetcode
+https://leetcode.com/problems/longest-substring-without-repeating-characters/?envType=list&envId=efdk2wsi,bfcc797c199711eea88ae3300d621ca4,strings,Longest Substring Without Repeating Characters,medium,leetcode
+https://leetcode.com/problems/longest-palindromic-substring/?envType=list&envId=efdk2wsi,d317bc62199711eea88ae3300d621ca4,strings,Longest Palindromic Substring,medium,leetcode
+https://leetcode.com/problems/decode-string/?envType=list&envId=efdk2wsi,dfdd21da199711eea88ae3300d621ca4,strings,Decode String,medium,leetcode
+https://leetcode.com/problems/longest-common-prefix/?envType=list&envId=efdk2wsi,072e0b1e199811eea88ae3300d621ca4,strings,Longest Common Prefix,easy,leetcode
+https://leetcode.com/problems/sort-characters-by-frequency/?envType=list&envId=efdk2wsi,4cb30a90199811eea88ae3300d621ca4,strings,Sort Characters By Frequency,medium,leetcode
+https://leetcode.com/problems/longest-duplicate-substring/?envType=list&envId=efdk2wsi,6742bc0c199811eea88ae3300d621ca4,strings,Longest Duplicate Substring,hard,leetcode
+https://leetcode.com/problems/reformat-the-string/?envType=list&envId=efdk2wsi,77897c90199811eea88ae3300d621ca4,strings,Reformat The String,easy,leetcode
+https://leetcode.com/problems/split-two-strings-to-make-palindrome/,e71f12f4199811eea88ae3300d621ca4,twoPointers,Split Two Strings to Make Palindrome,medium,leetcode
+https://leetcode.com/problems/3sum/,f5df63a2199811eea88ae3300d621ca4,twoPointers,3Sum,medium,leetcode
+https://leetcode.com/problems/shortest-unsorted-continuous-subarray/,0759382e199911eea88ae3300d621ca4,twoPointers,Shortest Unsorted Continuous Subarray,medium,leetcode
+https://leetcode.com/problems/rotate-array/,14bc1a04199911eea88ae3300d621ca4,twoPointers,Rotate Array,medium,leetcode
+https://leetcode.com/problems/next-permutation/,374ca1d8199911eea88ae3300d621ca4,twoPointers,Next Permutation,medium,leetcode
+https://leetcode.com/problems/squares-of-a-sorted-array/,535cf4c2199911eea88ae3300d621ca4,twoPointers,Squares of a Sorted Array,easy,leetcode
+https://leetcode.com/problems/unique-email-addresses/,b2630f441cc111eea5719f9e1997d77b,arrays,Unique Email Addresses,easy,leetcode
+https://leetcode.com/problems/longest-common-prefix/,c0470ae81cc111eea5719f9e1997d77b,arrays,Longest Common Prefix,easy,leetcode
+https://leetcode.com/problems/two-sum/,cd96eb3c1cc111eea5719f9e1997d77b,arrays,Two Sum,easy,leetcode
+https://leetcode.com/problems/valid-anagram/,dcd58f5e1cc111eea5719f9e1997d77b,arrays,Valid Anagram,easy,leetcode
+https://leetcode.com/problems/next-greater-element-i/,18ea386e1cc211eea5719f9e1997d77b,arrays,Next Greater Element I,easy,leetcode
+https://leetcode.com/problems/find-pivot-index/,2ea08e601cc211eea5719f9e1997d77b,arrays,Find Pivot Index,easy,leetcode
+https://leetcode.com/problems/majority-element/,43eae23e1cc211eea5719f9e1997d77b,arrays,Majority Element,easy,leetcode
+https://leetcode.com/problems/can-place-flowers/,601182921cc211eea5719f9e1997d77b,arrays,Can Place Flowers,easy,leetcode
+https://leetcode.com/problems/pascals-triangle/,6f910e681cc211eea5719f9e1997d77b,arrays,Pascal's Triangle,easy,leetcode
+https://leetcode.com/problems/isomorphic-strings/,8068b06a1cc211eea5719f9e1997d77b,arrays,Isomorphic Strings,easy,leetcode
+https://leetcode.com/problems/design-parking-system/,26da60221cc511eea5719f9e1997d77b,arrays,Design Parking System,easy,leetcode
+https://leetcode.com/problems/design-hashmap/,3441f4461cc511eea5719f9e1997d77b,arrays,Design HashMap,easy,leetcode
+https://leetcode.com/problems/design-hashset/,48e5adca1cc511eea5719f9e1997d77b,arrays,Design HashSet,easy,leetcode
+https://leetcode.com/problems/word-pattern/,56481cfa1cc511eea5719f9e1997d77b,arrays,Word Pattern,easy,leetcode
+https://leetcode.com/problems/range-sum-query-immutable/,78021a081cc511eea5719f9e1997d77b,arrays,Range Sum Query - Immutable,easy,leetcode
+https://leetcode.com/problems/subarray-sum-equals-k/,c9c864281cc511eea5719f9e1997d77b,arrays,Subarray Sum Equals K,medium,leetcode
+https://leetcode.com/problems/sort-colors/,ddff7a1c1cc511eea5719f9e1997d77b,arrays,Sort Colors,medium,leetcode
+https://leetcode.com/problems/longest-consecutive-sequence/,ec1a79261cc511eea5719f9e1997d77b,arrays,Longest Consecutive Sequence,medium,leetcode
+https://leetcode.com/problems/valid-sudoku/,fa5138221cc511eea5719f9e1997d77b,arrays,Valid Sudoku,medium,leetcode
+https://leetcode.com/problems/product-of-array-except-self/,086121f21cc611eea5719f9e1997d77b,arrays,Product of Array Except Self,medium,leetcode
+https://leetcode.com/problems/top-k-frequent-elements/,159d55f21cc611eea5719f9e1997d77b,arrays,Top K Frequent Elements,easy,leetcode
+https://leetcode.com/problems/group-anagrams/,22431b521cc611eea5719f9e1997d77b,arrays,Group Anagrams,medium,leetcode
+https://leetcode.com/problems/design-underground-system/,468e28081cc611eea5719f9e1997d77b,arrays,Design Underground System,medium,leetcode
+https://leetcode.com/problems/non-decreasing-array/,5382dbbc1cc611eea5719f9e1997d77b,arrays,Non-decreasing Array,medium,leetcode
+https://leetcode.com/problems/insert-delete-getrandom-o1/,611160dc1cc611eea5719f9e1997d77b,arrays,Insert Delete GetRandom O(1),medium,leetcode
+https://leetcode.com/problems/repeated-dna-sequences/,6f6d87fa1cc611eea5719f9e1997d77b,arrays,Repeated DNA Sequences,medium,leetcode
+https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/,9ba539d01cc611eea5719f9e1997d77b,arrays,Best Time to Buy and Sell Stock II,medium,leetcode
+https://leetcode.com/problems/first-missing-positive/,adf148e01cc611eea5719f9e1997d77b,arrays,First Missing Positive,hard,leetcode
+https://leetcode.com/problems/naming-a-company/,b925f5e41cc611eea5719f9e1997d77b,arrays,Naming a Company,hard,leetcode
+https://leetcode.com/problems/move-zeroes/,a22621921cc711eea5719f9e1997d77b,twoPointers,Move Zeroes,easy,leetcode
+https://leetcode.com/problems/reverse-string/,b1654ee41cc711eea5719f9e1997d77b,twoPointers,Reverse String,easy,leetcode
+https://leetcode.com/problems/merge-strings-alternately/,c51479ba1cc711eea5719f9e1997d77b,twoPointers,Merge Strings Alternately,easy,leetcode
+https://leetcode.com/problems/minimum-difference-between-highest-and-lowest-of-k-scores/,d7bcc78e1cc711eea5719f9e1997d77b,twoPointers,Minimum Difference Between Highest and Lowest of K Scores,easy,leetcode
+https://leetcode.com/problems/valid-palindrome-ii/,e675e5121cc711eea5719f9e1997d77b,twoPointers,Valid Palindrome II,easy,leetcode
+https://leetcode.com/problems/valid-palindrome/,f301a2301cc711eea5719f9e1997d77b,twoPointers,Valid Palindrome,easy,leetcode
+https://leetcode.com/problems/merge-sorted-array/,104de48e1cc811eea5719f9e1997d77b,twoPointers,Merge Sorted Array,easy,leetcode
+https://leetcode.com/problems/boats-to-save-people/,437905a01cc811eea5719f9e1997d77b,twoPointers,Boats to Save People,medium,leetcode
+https://leetcode.com/problems/number-of-subsequences-that-satisfy-the-given-sum-condition/,543483601cc811eea5719f9e1997d77b,twoPointers,Number of Subsequences That Satisfy the Given Sum Condition,medium,leetcode
+https://leetcode.com/problems/container-with-most-water/,5fe99ab01cc811eea5719f9e1997d77b,twoPointers,Container With Most Water,medium,leetcode
+https://leetcode.com/problems/4sum/,7b7467f61cc811eea5719f9e1997d77b,twoPointers,4Sum,medium,leetcode
+https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/,883f94c41cc811eea5719f9e1997d77b,twoPointers,Two Sum II - Input Array Is Sorted,medium,leetcode
+https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/,96f304561cc811eea5719f9e1997d77b,twoPointers,Remove Duplicates from Sorted Array II,medium,leetcode
+https://leetcode.com/problems/jewels-and-stones/,0dc74f401ccb11eea5719f9e1997d77b,strings,Jewels and Stones,easy,leetcode
+https://leetcode.com/problems/word-ladder-ii/,4ad0396e1dbc11eea5719f9e1997d77b,strings,Word Ladder II,hard,leetcode
+https://leetcode.com/problems/longest-valid-parentheses/,731632ca1dbc11eea5719f9e1997d77b,strings,Longest Valid Parentheses,hard,leetcode
+https://leetcode.com/problems/next-greater-element-iii/,cc96a2e41dbc11eea5719f9e1997d77b,strings,Next Greater Element III,medium,leetcode
+https://leetcode.com/problems/largest-number/,ed142ce41dbc11eea5719f9e1997d77b,strings,Largest Number,medium,leetcode
+https://leetcode.com/problems/repeated-string-match/,107861821dbd11eea5719f9e1997d77b,strings,Repeated String Match,medium,leetcode
+https://leetcode.com/problems/string-without-aaa-or-bbb/,7b88c4ee1dbd11eea5719f9e1997d77b,strings,String Without AAA or BBB,medium,leetcode
+https://leetcode.com/problems/find-the-kth-largest-integer-in-the-array/,b8942e781dbd11eea5719f9e1997d77b,strings,Find the Kth Largest Integer in the Array,medium,leetcode
+https://leetcode.com/problems/remove-duplicate-letters/,cdbfb0ba1dbd11eea5719f9e1997d77b,strings,Remove Duplicate Letters,medium,leetcode
+https://leetcode.com/problems/word-break/,e364cfd61dbd11eea5719f9e1997d77b,strings,Word Break,medium,leetcode
+https://leetcode.com/problems/reorganize-string/,1d99b3a61dbe11eea5719f9e1997d77b,strings,Reorganize String,medium,leetcode
+https://leetcode.com/problems/edit-distance/,343e5fe41dbe11eea5719f9e1997d77b,strings,Edit Distance,medium,leetcode
+https://leetcode.com/problems/determine-if-two-strings-are-close/,5c4e8dce1dbe11eea5719f9e1997d77b,arrays,Determine if Two Strings Are Close,medium,leetcode
+https://leetcode.com/problems/top-k-frequent-words/,879cce141dbe11eea5719f9e1997d77b,strings,Top K Frequent Words,medium,leetcode
+https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string-ii/,9beb43b41dbe11eea5719f9e1997d77b,strings,Remove All Adjacent Duplicates in String II,medium,leetcode
+https://leetcode.com/problems/longest-happy-string/,acbd728e1dbe11eea5719f9e1997d77b,strings,Longest Happy String,medium,leetcode
+https://leetcode.com/problems/check-if-one-string-swap-can-make-strings-equal/,1f1539201dbf11eea5719f9e1997d77b,strings,Check if One String Swap Can Make Strings Equal,easy,leetcode
+https://leetcode.com/problems/repeated-substring-pattern/,30b4ccf41dbf11eea5719f9e1997d77b,strings,Repeated Substring Pattern,easy,leetcode
+https://leetcode.com/problems/consecutive-characters/,6b285b761dbf11eea5719f9e1997d77b,strings,Consecutive Characters,easy,leetcode
+https://leetcode.com/problems/sorting-the-sentence/,9173354e1dbf11eea5719f9e1997d77b,strings,Sorting the Sentence,easy,leetcode
+https://leetcode.com/problems/shuffle-string/,aa764f721dbf11eea5719f9e1997d77b,strings,Shuffle String,easy,leetcode
+https://leetcode.com/problems/baseball-game/,c65a510a1dc111eea5719f9e1997d77b,stack,Baseball Game,easy,leetcode
+https://leetcode.com/problems/search-insert-position/,a0bd68501dc211eea5719f9e1997d77b,binarySearch,Search Insert Position,easy,leetcode
+https://leetcode.com/problems/guess-number-higher-or-lower/,f5ac46fe1e2311eea23ee74466e6c372,binarySearch,Guess Number Higher or Lower,easy,leetcode
+https://leetcode.com/problems/arranging-coins/,0660b9d01e2411eea23ee74466e6c372,binarySearch,Arranging Coins,easy,leetcode
+https://leetcode.com/problems/minimum-number-of-flips-to-make-the-binary-string-alternating/,449ae4081dbd11eea5719f9e1997d77b,slidingWindow,Minimum Number of Flips to Make the Binary String Alternating,medium,leetcode
+https://leetcode.com/problems/permutation-in-string/,a1eccac21dbd11eea5719f9e1997d77b,slidingWindow,Permutation in String,medium,leetcode
+https://leetcode.com/problems/valid-perfect-square/,2bce1e101e2411eea23ee74466e6c372,binarySearch,Valid Perfect Square,easy,leetcode
+https://leetcode.com/problems/single-element-in-a-sorted-array/,42b9dcb81e2411eea23ee74466e6c372,stack,Single Element in a Sorted Array,medium,leetcode
+https://leetcode.com/problems/capacity-to-ship-packages-within-d-days/,5125a7781e2411eea23ee74466e6c372,binarySearch,Capacity To Ship Packages Within D Days,medium,leetcode
+https://leetcode.com/problems/find-peak-element/,5fe30cec1e2411eea23ee74466e6c372,binarySearch,Find Peak Element,medium,leetcode
+https://leetcode.com/problems/successful-pairs-of-spells-and-potions/,6d8e8ccc1e2411eea23ee74466e6c372,binarySearch,Successful Pairs of Spells and Potions,medium,leetcode
+https://leetcode.com/problems/koko-eating-bananas/,7cc3324c1e2411eea23ee74466e6c372,binarySearch,Koko Eating Bananas,medium,leetcode
+https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/,9225b89e1e2411eea23ee74466e6c372,binarySearch,Find Minimum in Rotated Sorted Array,medium,leetcode
+https://leetcode.com/problems/search-in-rotated-sorted-array/,9ecffe061e2411eea23ee74466e6c372,binarySearch,Search in Rotated Sorted Array,medium,leetcode
+https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/,acb9b6ba1e2411eea23ee74466e6c372,binarySearch,Find First and Last Position of Element in Sorted Array,medium,leetcode
+https://leetcode.com/problems/split-array-largest-sum/,c8a68baa1e2411eea23ee74466e6c372,binarySearch,Split Array Largest Sum,hard,leetcode
+https://leetcode.com/problems/median-of-two-sorted-arrays/,d30ac3c21e2411eea23ee74466e6c372,binarySearch,Median of Two Sorted Arrays,hard,leetcode
+https://leetcode.com/problems/search-a-2d-matrix/?envType=list&envId=9jlbghzr,fdde6b441e2411eea23ee74466e6c372,binarySearch,Search a 2D Matrix,medium,leetcode
+https://leetcode.com/problems/implement-stack-using-queues/,2c6a519e1e2511eea23ee74466e6c372,stack,Implement Stack using Queues,easy,leetcode
+https://leetcode.com/problems/min-stack/,388f46141e2511eea23ee74466e6c372,stack,Min Stack,medium,leetcode
+https://leetcode.com/problems/evaluate-reverse-polish-notation/,456dab461e2511eea23ee74466e6c372,stack,Evaluate Reverse Polish Notation,medium,leetcode
+https://leetcode.com/problems/removing-stars-from-a-string/,684d3d2a1e2511eea23ee74466e6c372,stack,Removing Stars From a String,medium,leetcode
+https://leetcode.com/problems/validate-stack-sequences/,752c571a1e2511eea23ee74466e6c372,stack,Validate Stack Sequences,medium,leetcode
+https://leetcode.com/problems/132-pattern/?envType=list&envId=91kuzqsv,8c52cba41e2511eea23ee74466e6c372,stack,132 Pattern,medium,leetcode
+https://leetcode.com/problems/remove-duplicate-letters/?envType=list&envId=91kuzqsv,989719241e2511eea23ee74466e6c372,stack,Remove Duplicate Letters,medium,leetcode
+https://leetcode.com/problems/daily-temperatures/?envType=list&envId=91kuzqsv,b309e3041e2511eea23ee74466e6c372,stack,Daily Temperatures,medium,leetcode
+https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string-ii/?envType=list&envId=91kuzqsv,bfe136f41e2511eea23ee74466e6c372,stack,Remove All Adjacent Duplicates in String II,medium,leetcode
+https://leetcode.com/problems/valid-parentheses/,f35b18c41e2511eea23ee74466e6c372,stack,Valid Parentheses,easy,leetcode
+https://leetcode.com/problems/largest-rectangle-in-histogram/,26cff29c1e2611eea23ee74466e6c372,stack,Largest Rectangle in Histogram,hard,leetcode
+https://leetcode.com/problems/maximal-rectangle/,3bdd7bd21e2611eea23ee74466e6c372,stack,Maximal Rectangle,hard,leetcode
+https://leetcode.com/problems/number-of-visible-people-in-a-queue/,4c887b6c1e2611eea23ee74466e6c372,stack,Number of Visible People in a Queue,hard,leetcode
+https://leetcode.com/problems/reverse-linked-list/,3e6dce3e249711eea00ec590000439d6,linkedlist,Reverse Linked List,easy,leetcode
+https://leetcode.com/problems/merge-two-sorted-lists/,6a9a5770249711eea00ec590000439d6,linkedlist,Merge Two Sorted Lists,easy,leetcode
+https://leetcode.com/problems/palindrome-linked-list/,7edda854249711eea00ec590000439d6,linkedlist,Palindrome Linked List,easy,leetcode
+https://leetcode.com/problems/remove-linked-list-elements/,91bb28e8249711eea00ec590000439d6,linkedlist,Remove Linked List Elements,easy,leetcode
+https://leetcode.com/problems/remove-duplicates-from-sorted-list/,a2b0f70e249711eea00ec590000439d6,linkedlist,Remove Duplicates from Sorted List,easy,leetcode
+https://leetcode.com/problems/middle-of-the-linked-list/,b48347e8249711eea00ec590000439d6,linkedlist,Middle of the Linked List,easy,leetcode
+https://leetcode.com/problems/intersection-of-two-linked-lists/,c05a6326249711eea00ec590000439d6,linkedlist,Intersection of Two Linked Lists,easy,leetcode
+https://leetcode.com/problems/reorder-list/,ee5f3058249711eea00ec590000439d6,linkedlist,Reorder List,medium,leetcode
+https://leetcode.com/problems/remove-nth-node-from-end-of-list/,025464fc249811eea00ec590000439d6,linkedlist,Remove Nth Node From End of List,medium,leetcode
+https://leetcode.com/problems/linked-list-cycle/,10ea91a8249811eea00ec590000439d6,linkedlist,Linked List Cycle,easy,leetcode
+https://leetcode.com/problems/design-browser-history/,2220dd88249811eea00ec590000439d6,linkedlist,Design Browser History,medium,leetcode
+https://leetcode.com/problems/add-two-numbers/,2ef1ed22249811eea00ec590000439d6,linkedlist,Add Two Numbers,medium,leetcode
+https://leetcode.com/problems/partition-list/,50d27df8249811eea00ec590000439d6,linkedlist,Partition List,medium,leetcode
+https://leetcode.com/problems/swapping-nodes-in-a-linked-list/,5c898d26249811eea00ec590000439d6,linkedlist,Swapping Nodes in a Linked List,medium,leetcode
+https://leetcode.com/problems/design-linked-list/,6b1027f6249811eea00ec590000439d6,linkedlist,Design Linked List,medium,leetcode
+https://leetcode.com/problems/copy-list-with-random-pointer/,8889d688249811eea00ec590000439d6,linkedlist,Copy List with Random Pointer,medium,leetcode
+https://leetcode.com/problems/find-the-duplicate-number/,9898351a249811eea00ec590000439d6,linkedlist,Find the Duplicate Number,medium,leetcode
+https://leetcode.com/problems/sort-list/,a70adabc249811eea00ec590000439d6,linkedlist,Sort List,medium,leetcode
+https://leetcode.com/problems/reverse-linked-list-ii/,b8f27afa249811eea00ec590000439d6,linkedlist,Reverse Linked List II,medium,leetcode
+https://leetcode.com/problems/insertion-sort-list/,e00177f4249811eea00ec590000439d6,linkedlist,Insertion Sort List,medium,leetcode
+https://leetcode.com/problems/lru-cache/,ed01136a249811eea00ec590000439d6,linkedlist,LRU Cache,medium,leetcode
+https://leetcode.com/problems/merge-k-sorted-lists/,fe1885c0249811eea00ec590000439d6,linkedlist,Merge k Sorted Lists,hard,leetcode
+https://leetcode.com/problems/reverse-nodes-in-k-group/,146f14b0249911eea00ec590000439d6,linkedlist,Reverse Nodes in k-Group,hard,leetcode
+https://leetcode.com/problems/kth-largest-element-in-a-stream/,eaa2a6be249911eea00ec590000439d6,heap,Kth Largest Element in a Stream,easy,leetcode
+https://leetcode.com/problems/last-stone-weight/,0d578f1c249a11eea00ec590000439d6,heap,Last Stone Weight,easy,leetcode
+https://leetcode.com/problems/kth-largest-element-in-an-array/,2f0ecb66249a11eea00ec590000439d6,heap,Kth Largest Element in an Array,medium,leetcode
+https://leetcode.com/problems/k-closest-points-to-origin/,3e0ad7d6249a11eea00ec590000439d6,heap,K Closest Points to Origin,medium,leetcode
+https://leetcode.com/problems/task-scheduler/,4c247822249a11eea00ec590000439d6,heap,Task Scheduler,medium,leetcode
+https://leetcode.com/problems/design-twitter/,5ba48404249a11eea00ec590000439d6,heap,Design Twitter,medium,leetcode
+https://leetcode.com/problems/maximum-subsequence-score/,6a0c724a249a11eea00ec590000439d6,heap,Maximum Subsequence Score,medium,leetcode
+https://leetcode.com/problems/single-threaded-cpu/,838fe3b4249a11eea00ec590000439d6,heap,Single-Threaded CPU,medium,leetcode
+https://leetcode.com/problems/seat-reservation-manager/,933f25c2249a11eea00ec590000439d6,heap,Seat Reservation Manager,medium,leetcode
+https://leetcode.com/problems/car-pooling/,d7ab3930249a11eea00ec590000439d6,heap,Car Pooling,medium,leetcode
+https://leetcode.com/problems/find-median-from-data-stream/,00beffb4249b11eea00ec590000439d6,heap,Find Median from Data Stream,hard,leetcode
+https://leetcode.com/problems/maximum-performance-of-a-team/,7a1719f4249c11eea00ec590000439d6,heap,Maximum Performance of a Team,hard,leetcode
+https://leetcode.com/problems/ipo/,a1c28664249c11eea00ec590000439d6,heap,IPOs,hard,leetcode
+https://leetcode.com/problems/climbing-stairs/,4b34c04a249d11eea00ec590000439d6,dp-1,Climbing Stairs,easy,leetcode
+https://leetcode.com/problems/n-th-tribonacci-number/,6a936324249d11eea00ec590000439d6,dp-2,N-th Tribonacci Number,easy,leetcode
+https://leetcode.com/problems/min-cost-climbing-stairs/,7f82ff10249d11eea00ec590000439d6,dp-1,Min Cost Climbing Stairs,easy,leetcode
+https://leetcode.com/problems/house-robber/,974149a4249d11eea00ec590000439d6,dp-1,House Robber,medium,leetcode
+https://leetcode.com/problems/house-robber-ii/,b1edab6c249d11eea00ec590000439d6,dp-2,House Robber II,medium,leetcode
+https://leetcode.com/problems/longest-palindromic-substring/,e8fbe812249d11eea00ec590000439d6,dp-1,Longest Palindromic Substring,medium,leetcode
+https://leetcode.com/problems/palindromic-substrings/,f4c39712249d11eea00ec590000439d6,dp-1,Palindromic Substrings,medium,leetcode
+https://leetcode.com/problems/decode-ways/,03f6b868249e11eea00ec590000439d6,dp-1,Decode Ways,medium,leetcode
+https://leetcode.com/problems/coin-change/,116a6f26249e11eea00ec590000439d6,dp-1,Coin Change,medium,leetcode
+https://leetcode.com/problems/maximum-product-subarray/,9961ab10249e11eea00ec590000439d6,dp-1,Maximum Product Subarray,medium,leetcode
+https://leetcode.com/problems/longest-increasing-subsequence/,ab538672249e11eea00ec590000439d6,dp-1,Longest Increasing Subsequence,medium,leetcode
+https://leetcode.com/problems/partition-equal-subset-sum/,b7c719e6249e11eea00ec590000439d6,dp-1,Partition Equal Subset Sum,medium,leetcode
+https://leetcode.com/problems/delete-and-earn/,c4a85eea249e11eea00ec590000439d6,dp-1,Delete and Earn,medium,leetcode
+https://leetcode.com/problems/minimum-cost-for-tickets/,e36b7646249e11eea00ec590000439d6,dp-1,Minimum Cost For Tickets,medium,leetcode
+https://leetcode.com/problems/count-ways-to-build-good-strings/,fd0e4af6249e11eea00ec590000439d6,dp-2,Count Ways To Build Good Strings,medium,leetcode
+https://leetcode.com/problems/best-team-with-no-conflicts/,0b854fb2249f11eea00ec590000439d6,dp-1,Best Team With No Conflicts,medium,leetcode
+https://leetcode.com/problems/stone-game-iii/,21bceeb6249f11eea00ec590000439d6,dp-1,Stone Game III,hard,leetcode
+https://leetcode.com/problems/concatenated-words/,38238a20249f11eea00ec590000439d6,dp-1,Concatenated Words,hard,leetcode
+https://leetcode.com/problems/maximize-score-after-n-operations/,47a45ca4249f11eea00ec590000439d6,dp-1,Maximize Score After N Operations,hard,leetcode
+https://leetcode.com/problems/find-the-longest-valid-obstacle-course-at-each-position/,5a5468ee249f11eea00ec590000439d6,dp-1,Find the Longest Valid Obstacle Course at Each Position,hard,leetcode
+https://leetcode.com/problems/unique-paths/,783a427a249f11eea00ec590000439d6,dp-1,Unique Paths,medium,leetcode
+https://leetcode.com/problems/unique-paths-ii/,8b35fa0e249f11eea00ec590000439d6,dp-2,Unique Paths II,medium,leetcode
+https://leetcode.com/problems/longest-common-subsequence/,98b31720249f11eea00ec590000439d6,dp-2,Longest Common Subsequence,medium,leetcode
+https://leetcode.com/problems/longest-palindromic-subsequence/,a5c35c90249f11eea00ec590000439d6,dp-2,Longest Palindromic Subsequence,medium,leetcode
+https://leetcode.com/problems/last-stone-weight-ii/,bb1fbf98249f11eea00ec590000439d6,dp-2,Last Stone Weight II,medium,leetcode
+https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/,cd60b680249f11eea00ec590000439d6,dp-2,Best Time to Buy and Sell Stock with Cooldown,medium,leetcode
+https://leetcode.com/problems/coin-change-ii/,e1b3c582249f11eea00ec590000439d6,dp-2,Coin Change II,medium,leetcode
+https://leetcode.com/problems/stone-game/,fc8e60b0249f11eea00ec590000439d6,dp-2,Stone Game,medium,leetcode
+https://leetcode.com/problems/target-sum/,1132d1d624a011eea00ec590000439d6,dp-2,Target Sum,medium,leetcode
+https://leetcode.com/problems/minimum-path-sum/,2062664e24a011eea00ec590000439d6,dp-2,Minimum Path Sum,medium,leetcode
+https://leetcode.com/problems/maximal-square/,2ff290ac24a011eea00ec590000439d6,dp-2,Maximal Square,medium,leetcode
+https://leetcode.com/problems/ones-and-zeroes/,3c36a46624a011eea00ec590000439d6,dp-2,Ones and Zeroes,medium,leetcode
+https://leetcode.com/problems/stone-game-ii/,51c1a4b624a011eea00ec590000439d6,dp-2,Stone Game II,medium,leetcode
+https://leetcode.com/problems/flip-string-to-monotone-increasing/,6132515c24a011eea00ec590000439d6,dp-2,Flip String to Monotone Increasing,medium,leetcode
+https://leetcode.com/problems/longest-increasing-path-in-a-matrix/,7287304424a011eea00ec590000439d6,dp-2,Longest Increasing Path in a Matrix,hard,leetcode
+https://leetcode.com/problems/distinct-subsequences/,7e2f4bc024a011eea00ec590000439d6,dp-2,Distinct Subsequences,hard,leetcode
+https://leetcode.com/problems/count-vowels-permutation/,9b9b7da024a011eea00ec590000439d6,dp-2,Count Vowels Permutation,hard,leetcode
+https://leetcode.com/problems/minimum-cost-to-cut-a-stick/,bee1197824a011eea00ec590000439d6,dp-2,Minimum Cost to Cut a Stick,hard,leetcode
+https://leetcode.com/problems/burst-balloons/,2a3491aa24a111eea00ec590000439d6,dp-2,Burst Balloons,hard,leetcode
+https://leetcode.com/problems/regular-expression-matching/,36dd00cc24a111eea00ec590000439d6,dp-2,Regular Expression Matching,hard,leetcode
+https://leetcode.com/problems/binary-tree-inorder-traversal/,b225ec8024a111eea00ec590000439d6,tree-1,Binary Tree Inorder Traversal,easy,leetcode
+https://leetcode.com/problems/binary-tree-preorder-traversal/,d7126f1424a111eea00ec590000439d6,tree-1,Binary Tree Preorder Traversal,easy,leetcode
+https://leetcode.com/problems/binary-tree-postorder-traversal/,e6162ce424a111eea00ec590000439d6,tree-1,Binary Tree Postorder Traversal,easy,leetcode
+https://leetcode.com/problems/range-sum-of-bst/,378df28c24a211eea00ec590000439d6,tree-1,Range Sum of BST,easy,leetcode
+https://leetcode.com/problems/merge-two-binary-trees/,53c5f6e824a211eea00ec590000439d6,tree-1,Merge Two Binary Trees,easy,leetcode
+https://leetcode.com/problems/same-tree/,77b6c5be24a211eea00ec590000439d6,tree-1,Same Tree,easy,leetcode
+https://leetcode.com/problems/balanced-binary-tree/,8737676e24a211eea00ec590000439d6,tree-1,Balanced Binary Tree,easy,leetcode
+https://leetcode.com/problems/subtree-of-another-tree/,9526182a24a211eea00ec590000439d6,tree-2,Subtree of Another Tree,easy,leetcode
+https://leetcode.com/problems/invert-binary-tree/,a761b3be24a211eea00ec590000439d6,tree-1,Invert Binary Tree,easy,leetcode
+https://leetcode.com/problems/maximum-depth-of-binary-tree/,b4f0b03e24a211eea00ec590000439d6,tree-2,Maximum Depth of Binary Tree,easy,leetcode
+https://leetcode.com/problems/diameter-of-binary-tree/,c0a6648c24a211eea00ec590000439d6,tree-2,Diameter of Binary Tree,easy,leetcode
+https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/,dc3cced424a211eea00ec590000439d6,tree-1,Convert Sorted Array to Binary Search Tree,easy,leetcode
+https://leetcode.com/problems/path-sum/,e823aa1a24a211eea00ec590000439d6,tree-2,Path Sum,easy,leetcode
+https://leetcode.com/problems/minimum-distance-between-bst-nodes/,fb9eae3224a211eea00ec590000439d6,tree-2,Minimum Distance Between BST Nodes,easy,leetcode
+https://leetcode.com/problems/symmetric-tree/,104ce55624a311eea00ec590000439d6,tree-2,Symmetric Tree,easy,leetcode
+https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/,280b366624a311eea00ec590000439d6,tree-1,Lowest Common Ancestor of a Binary Search Tree,medium,leetcode
+https://leetcode.com/problems/insert-into-a-binary-search-tree/,3a6c5e2024a311eea00ec590000439d6,tree-1,Insert into a Binary Search Tree,medium,leetcode
+https://leetcode.com/problems/delete-node-in-a-bst/,46ce4f2024a311eea00ec590000439d6,tree-1,Delete Node in a BST,medium,leetcode
+https://leetcode.com/problems/binary-tree-level-order-traversal/,563f102024a311eea00ec590000439d6,tree-2,Binary Tree Level Order Traversal,medium,leetcode
+https://leetcode.com/problems/binary-tree-right-side-view/,62d22f2a24a311eea00ec590000439d6,tree-2,Binary Tree Right Side View,medium,leetcode
+https://leetcode.com/problems/minimum-time-to-collect-all-apples-in-a-tree/,924e3e9c24a311eea00ec590000439d6,tree-2,Minimum Time to Collect All Apples in a Tree,medium,leetcode
+https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/,9ed1177a24a311eea00ec590000439d6,tree-2,Binary Tree Zigzag Level Order Traversal,medium,leetcode
+https://leetcode.com/problems/construct-quad-tree/,bb537d6624a311eea00ec590000439d6,tree-2,Find Duplicate Subtrees,medium,leetcode
+https://leetcode.com/problems/check-completeness-of-a-binary-tree/,c8bfe1f624a311eea00ec590000439d6,tree-1,Check Completeness of a Binary Tree,medium,leetcode
+https://leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/,dd92687424a311eea00ec590000439d6,tree-1,Construct Binary Tree from Inorder and Postorder Traversal,medium,leetcode
+https://leetcode.com/problems/unique-binary-search-trees/,36db2dc624a411eea00ec590000439d6,tree-2,Unique Binary Search Trees,medium,leetcode
+https://leetcode.com/problems/sum-root-to-leaf-numbers/,4765804224a411eea00ec590000439d6,tree-1,Sum Root to Leaf Numbers,medium,leetcode
+https://leetcode.com/problems/house-robber-iii/,5431a1fc24a411eea00ec590000439d6,tree-2,House Robber III,medium,leetcode
+https://leetcode.com/problems/flip-equivalent-binary-trees/,6770ee1c24a411eea00ec590000439d6,tree-2,Flip Equivalent Binary Trees,medium,leetcode
+https://leetcode.com/problems/all-possible-full-binary-trees/,80c5255424a411eea00ec590000439d6,tree-1,All Possible Full Binary Trees,medium,leetcode
+https://leetcode.com/problems/find-bottom-left-tree-value/,8eee1ba424a411eea00ec590000439d6,tree-1,Find Bottom Left Tree Value,medium,leetcode
+https://leetcode.com/problems/trim-a-binary-search-tree/,aa3c199224a411eea00ec590000439d6,tree-2,Trim a Binary Search Tree,medium,leetcode
+https://leetcode.com/problems/binary-search-tree-iterator/,b94bfbaa24a411eea00ec590000439d6,tree-1,Binary Search Tree Iterator,medium,leetcode
+https://leetcode.com/problems/convert-bst-to-greater-tree/,c793186a24a411eea00ec590000439d6,tree-2,Convert BST to Greater Tree,medium,leetcode
+https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/,1ad3631824a511eea00ec590000439d6,tree-2,Lowest Common Ancestor of a Binary Tree,medium,leetcode
+https://leetcode.com/problems/binary-tree-level-order-traversal-ii/,2b007f5024a511eea00ec590000439d6,tree-1,Binary Tree Level Order Traversal II,medium,leetcode
+https://leetcode.com/problems/validate-binary-search-tree/,4714af7c24a511eea00ec590000439d6,tree-2,Validate Binary Search Tree,medium,leetcode
+https://leetcode.com/problems/serialize-and-deserialize-binary-tree/,5e3a481a24a511eea00ec590000439d6,tree-1,Serialize and Deserialize Binary Tree,hard,leetcode
+https://leetcode.com/problems/binary-tree-maximum-path-sum/,6a8af73624a511eea00ec590000439d6,tree-2,Binary Tree Maximum Path Sum,hard,leetcode
+https://leetcode.com/problems/minimize-deviation-in-array/,eff6015a249a11eea00ec590000439d6,heap,Minimize Deviation in Array,hard,leetcode
+https://leetcode.com/problems/best-time-to-buy-and-sell-stock/,0f12caf62daf11eebaa9d7ff29a6ffc0,slidingWindow,Best Time to Buy and Sell Stock,easy,leetcode
+https://leetcode.com/problems/contains-duplicate-ii/,2e8dcf842daf11eebaa9d7ff29a6ffc0,slidingWindow,Contains Duplicate II,easy,leetcode
+https://leetcode.com/problems/number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold/,4b4deed82daf11eebaa9d7ff29a6ffc0,slidingWindow,Number of Sub-arrays of Size K and Average Greater than or Equal to Threshold,medium,leetcode
+https://leetcode.com/problems/minimum-window-substring/,3c0077b42db111eebaa9d7ff29a6ffc0,slidingWindow,Minimum Window Substring,hard,leetcode
+https://leetcode.com/problems/sliding-window-maximum/,4c8e48c22db111eebaa9d7ff29a6ffc0,slidingWindow,Sliding Window Maximum,hard,leetcode
+https://leetcode.com/problems/longest-repeating-character-replacement/,64826bd42db111eebaa9d7ff29a6ffc0,slidingWindow,Longest Repeating Character Replacement,medium,leetcode
+https://leetcode.com/problems/longest-substring-without-repeating-characters/,76d5838e2db111eebaa9d7ff29a6ffc0,slidingWindow,Longest Substring Without Repeating Characters,medium,leetcode
+https://leetcode.com/problems/find-k-closest-elements/,a1c28e342db111eebaa9d7ff29a6ffc0,slidingWindow,Find K Closest Elements,medium,leetcode
+https://leetcode.com/problems/minimum-size-subarray-sum/,b471e02a2db111eebaa9d7ff29a6ffc0,slidingWindow,Minimum Size Subarray Sum,medium,leetcode
+https://leetcode.com/problems/maximum-number-of-vowels-in-a-substring-of-given-length/,99f7ab522db211eebaa9d7ff29a6ffc0,slidingWindow,Maximum Number of Vowels in a Substring of Given Length,medium,leetcode
+https://leetcode.com/problems/fruit-into-baskets/,a86f83d02db211eebaa9d7ff29a6ffc0,slidingWindow,Fruit Into Baskets,medium,leetcode
+https://leetcode.com/problems/frequency-of-the-most-frequent-element/,b9a49e102db211eebaa9d7ff29a6ffc0,slidingWindow,Frequency of the Most Frequent Element,medium,leetcode
+https://leetcode.com/problems/max-consecutive-ones-iii/?envType=list&envId=9i7mkbmc,3995647e2db311eebaa9d7ff29a6ffc0,slidingWindow,Max Consecutive Ones III,medium,leetcode
+https://leetcode.com/problems/contains-duplicate-ii/?envType=list&envId=9i7mkbmc,47adf85a2db311eebaa9d7ff29a6ffc0,slidingWindow,Contains Duplicate II,medium,leetcode
+https://leetcode.com/problems/number-of-substrings-containing-all-three-characters/?envType=list&envId=9i7mkbmc,583875b02db311eebaa9d7ff29a6ffc0,slidingWindow,Number of Substrings Containing All Three Characters,medium,leetcode

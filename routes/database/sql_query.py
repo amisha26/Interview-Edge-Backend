@@ -1,4 +1,4 @@
-import sqlite3
+""" import sqlite3
 
 conn = sqlite3.connect('database.db')
 c = conn.cursor()
@@ -61,4 +61,4 @@ c.execute(insert_userQuestion)
 
 
 conn.commit()
-conn.close()
+conn.close() """

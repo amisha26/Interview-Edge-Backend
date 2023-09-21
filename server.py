@@ -9,7 +9,8 @@ from routes.explore.explore import explore_route
 from routes.profile.profile import profile_route
 
 # Library imports
-import sqlite3
+#import sqlite3
+import psycopg2
 import atexit
 
 secret_key = "amisha"
@@ -23,9 +24,19 @@ app.config['JWT_ACCESS_TOKEN_EXPIRES'] = 120
 jwt = JWTManager(app)
 
 
+db_params = {
+    'database': 'code',
+    'user': 'postgres',
+    'password': 'postgres',
+    'host': 'localhost',  
+    'port': '5432'       
+}
+
+
 # =============== Database Connection  ===============
 def db_connection():
-    conn = sqlite3.connect('database.db')
+    #conn = sqlite3.connect('database.db')
+    conn = psycopg2.connect(f"postgresql://postgres:postgres@localhost:5432/postgres")
     print('\n connected to database \n')
     return conn
 
