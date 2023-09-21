@@ -24,13 +24,13 @@ app.config['JWT_ACCESS_TOKEN_EXPIRES'] = 120
 jwt = JWTManager(app)
 
 
-db_params = {
-    'database': 'code',
-    'user': 'postgres',
-    'password': 'postgres',
-    'host': 'localhost',  
-    'port': '5432'       
-}
+# db_params = {
+#     'database': 'code',
+#     'user': 'postgres',
+#     'password': 'postgres',
+#     'host': 'localhost',  
+#     'port': '5432'       
+# }
 
 
 # =============== Database Connection  ===============
