@@ -1,11 +1,17 @@
+# flask imports
 from flask import Flask, Blueprint, request, jsonify
 from flask_jwt_extended import jwt_required, create_access_token, get_jwt_identity
-import uuid
+
+# file imports
 from routes.database.database import Database
+
+# library imports
+import uuid
 
 
 auth = Blueprint('auth', __name__)
 
+# ==================== Authentication Route =======================
 def auth_route(connection):
     dbObj = Database(connection)
 

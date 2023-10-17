@@ -1,14 +1,15 @@
-# Flask imports
+# flask imports
 from flask import Flask, jsonify
 from flask_cors import CORS
 from flask_jwt_extended import JWTManager, jwt_required, create_access_token, get_jwt_identity
+from decouple import Config, RepositoryEnv
 
-# File imports
+# file imports
 from routes.user_auth.auth import auth_route
 from routes.explore.explore import explore_route
 from routes.profile.profile import profile_route
 
-# Library imports
+# library imports
 #import sqlite3
 import psycopg2
 import atexit
@@ -24,31 +25,25 @@ app.config['JWT_ACCESS_TOKEN_EXPIRES'] = 120
 jwt = JWTManager(app)
 
 
-# db_params = {
-#     'database': 'code',
-#     'user': 'postgres',
-#     'password': 'postgres',
-#     'host': 'localhost',  
-#     'port': '5432'       
-# }
+# ============== .env ================= 
+config = Config(RepositoryEnv(".env")) 
+URL = config("DB_URL")
+
 
 
 # =============== Database Connection  ===============
 def db_connection():
-    #conn = sqlite3.connect('database.db')
-    conn = psycopg2.connect(f"postgresql://postgres:postgres@localhost:5432/postgres")
+    conn = psycopg2.connect(URL)
     print('\n connected to database \n')
     return conn
 
 conn = db_connection()
-#dbObj = Database(conn)
 
 def close_db_connection():
     print('\n closing database connection \n')
     conn.close()
 
 atexit.register(close_db_connection)
-# =============== Database Connection  ===============
 
 
 # =============== Routes ===============
@@ -61,7 +56,6 @@ app.register_blueprint(profile_route(conn), url_prefix='/profile')
 def error(e):
     return jsonify({"msg": "Wrong Route"}), 404
 
-# =============== Routes ===============
 
 
 if __name__ == '__main__':

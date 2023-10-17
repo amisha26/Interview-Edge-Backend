@@ -1,11 +1,14 @@
+# file imports
 from routes.database.database import Database
 from projData.topicData import topicMapping
 
+# Profile db fetches and manipulates data from the db through queries
 class ProfileDb:
     
     def __init__(self, connection):
         self.dbObj = Database(connection)
 
+    # This fetches the number of easy, medium, hard questions solved by the user
     def getUserStatus(self, id):
         query = f"SELECT q.level, COUNT(*) AS level_count, COUNT(DISTINCT uq.question_id) FROM questions q LEFT JOIN userquestions uq ON q.question_id = uq.question_id WHERE uq.user_id = '{id}' or uq.user_id IS NULL GROUP BY q.level"
         queryRes = self.dbObj.selectQuery(query, False)
@@ -26,6 +29,7 @@ class ProfileDb:
         return user_data1
         
 
+    # This fetches the questions solved as well as when the question was solved 
     def getTableData(self, id):
         query = f"SELECT q.topic_name, q.question_name, q.question_url, q.level, q.platform, uq.date, CASE WHEN uq.user_id IS NOT NULL THEN TRUE ELSE FALSE END FROM questions q LEFT JOIN userQuestions uq ON q.question_id = uq.question_id AND uq.user_id = '{id}' WHERE (uq.user_id = '{id}' OR uq.user_id IS NULL)"
         queryRes = self.dbObj.selectQuery(query, False)
