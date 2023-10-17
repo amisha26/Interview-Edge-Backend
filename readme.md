@@ -25,6 +25,8 @@ To install dependencies
 
 ```bash
 pip install -r requirements.txt
+```
+
 
 
 ## Usage
@@ -35,8 +37,10 @@ To run the server
 
 ```bash
 pip install -r requirements.txt
+```
 
 2. With Python
 
 ```bash
 python3 server.py
+```
