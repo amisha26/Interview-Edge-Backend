@@ -36,7 +36,7 @@ To run the server
 1. With Gunicorn
 
 ```bash
-pip install -r requirements.txt
+gunicorn --reload app:app
 ```
 
 2. With Python
